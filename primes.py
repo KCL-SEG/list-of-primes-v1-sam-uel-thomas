@@ -4,7 +4,7 @@
 def primes(number_of_primes):
     list = []
     index = 2
-    while number_of_primes >= 0:
+    while number_of_primes > 0:
         if checkPrime(index):
             list.append(index)
             number_of_primes -= 1
